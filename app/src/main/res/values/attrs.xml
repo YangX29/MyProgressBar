@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <declare-styleable name="MyProgress">
+
+        <attr name="progress_color" format="color" />
+        <attr name="text_color" format="color" />
+        <attr name="background_color" format="color" />
+        <attr name="progress_height" format="dimension" />
+        <attr name="background_height" format="dimension" />
+        <attr name="text_size" format="dimension" />
+        <attr name="progress" format="integer" />
+        <attr name="maxValue" format="integer"/>
+        <attr name="isTemperature" format="boolean"/>
+        <attr name="showText" format="boolean"/>
+        <attr name="progress_radius" format="boolean"/>
+        <attr name="isGradient" format="boolean"/>
+        <attr name="end_color" format="color"/>
+        
+    </declare-styleable>
+    
+</resources>

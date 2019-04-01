@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:orientation="vertical">
+
+        <com.yang.myprogressbar.MyProgress
+            android:id="@+id/myprogress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="80"
+            app:progress_color="#2dc607"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="false"
+            app:progress_radius="true"
+            app:isGradient="true"
+            app:end_color="#cfff11"/>
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="50"
+            app:progress_color="#ff6600"
+            app:progress_height="6dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="false"
+            app:progress_radius="true"
+            app:isGradient="true"
+            app:end_color="#ffcc00"/>
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="60"
+            app:progress_color="#00ff33"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="false"
+            app:progress_radius="true"
+            app:isGradient="false" />
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="40"
+            app:progress_color="#ff6600"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="false"
+            app:progress_radius="false"
+            app:isGradient="false" />
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="80"
+            app:progress_color="#0968f7"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="true"
+            app:progress_radius="true"
+            app:isGradient="true"
+            app:end_color="#77c9ff"
+            app:text_size="20sp"/>
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="30"
+            app:progress_color="#ff3300"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="true"
+            app:progress_radius="true"
+            app:isGradient="true"
+            app:end_color="#ff9900"
+            app:text_size="20sp"
+            app:isTemperature="true"
+            app:maxValue="50"/>
+
+        <com.yang.myprogressbar.MyProgress
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:progress="30"
+            app:progress_color="#ff3300"
+            app:progress_height="12dp"
+            app:background_color="#bbbbbb"
+            app:background_height="2dp"
+            app:showText="false"
+            app:progress_radius="false"
+            app:isGradient="false"
+            app:end_color="#ff9900"
+            app:text_size="20sp"
+            app:isTemperature="true"
+            app:maxValue="50"/>
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
